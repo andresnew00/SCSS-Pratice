@@ -1,0 +1,21 @@
+@import './components/variables';
+@import './components/mixins';
+
+header {
+    background-color: $backColor;
+    @include flexContentCenter(row);
+    ul {
+        font-size: 2vw;
+    }
+    button {
+        background-color: $buttonColor;
+        &:hover{
+            background-color: aqua;
+        }
+    }
+}
+
+main {
+    @extend header;
+    background-color: rgb(107, 233, 107);
+}

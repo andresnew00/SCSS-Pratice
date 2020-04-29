@@ -1,0 +1,30 @@
+header, main {
+  background-color: aquamarine;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header ul, main ul {
+  font-size: 2vw;
+}
+
+header button, main button {
+  background-color: #3939cc;
+}
+
+header button:hover, main button:hover {
+  background-color: aqua;
+}
+
+main {
+  background-color: #6be96b;
+}
+/*# sourceMappingURL=styles.css.map */
